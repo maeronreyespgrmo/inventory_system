@@ -1,0 +1,14 @@
+Admin
+email: adminbacsafra@gmail.com
+password: password
+
+
+Customer
+email: maybacsafra@gmail.com
+password: customer1
+
+
+Rider
+email: riderbacsafra@gmail.com
+password: rider
+
