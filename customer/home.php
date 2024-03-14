@@ -26,7 +26,8 @@ if (!isset($_SESSION['username'])) {
         }
 
         h1 {
-            font-size: 4.5vw;
+            
+            nt-size: 4.5vw;
         }
 
         @media screen and (max-width: 600px) {

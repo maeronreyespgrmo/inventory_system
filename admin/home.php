@@ -43,11 +43,14 @@ body::before {
         @media screen and (max-width: 480px) {
             /* Adjust styles for screens up to 480px width */
             .wrapper {
-                width: 95%;
+                width: 70%;
                 margin-left: 15%;
             }
             .stext{
                 font-size: 3vw;
+            }
+            .admin_text{
+                font-size:8vw;
             }
         }
 
@@ -324,22 +327,24 @@ table tr td {
 
     @media screen and (min-width: 769px) {
         .sidenav {
-            left: 0;
+        left: 0;
         }
 
-    .main-content {
+        .main-content {
         margin-left: 250px;
+        }
+        .btn-primary {
+        width: 15%;
+        max-width: none;
+        padding: 10px 20px;
+        }
+        .menu-toggle {
+        display: none;
+        }      
+        h1{
+            font-size: 1vw
+        } 
     }
-    .btn-primary {
-      width: 15%;
-      max-width: none;
-      padding: 10px 20px;
-    }
-    .menu-toggle {
-            display: none;
-        }       
-
-}
 .stext {
 
     font-size: 1vw; /* Adjust the font size using viewport units */
@@ -352,6 +357,9 @@ table tr td {
     .col-4 {
         width: 100%; /* Make the column take up the full width on smaller screens */
     }
+    h1{
+            font-size: 5px
+        } 
 }
 
 </style>
@@ -454,7 +462,7 @@ table tr td {
 </script>
 
     <div class="wrapper">
-<p>Administrator Dashboard</p>
+<p class="admin_text">Administrator Dashboard</p>
                 <!-- Add three-line button for small screens -->
                 <div class="menu-toggle" onclick="toggleNav()">
             <div class="line"></div>
