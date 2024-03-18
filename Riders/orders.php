@@ -276,6 +276,7 @@ perspective: 250px;
 					<?php
                 }
                     ?>
+            
 						<tr>
 						<?php
 					}
@@ -283,3 +284,13 @@ perspective: 250px;
 				?>
 				</tbody>
 				</table>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+      function order_status(){
+        let order_status = document.getElementById("order_status")
+        $.post('process.php', {name: userName}, function(response){
+        // Handle response from PHP script
+        console.log(response);
+        });
+      }
+      </script>

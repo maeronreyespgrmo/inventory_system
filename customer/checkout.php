@@ -932,10 +932,10 @@ h2 {
 
    
 
-<div class="d-block my-3">
+<div class="d-block my-1">
     <div class="custom-control custom-radio">
-        <input id="online" name="paymentMethod" type="radio" value="GCash" class="custom-control-input2">
-        <label class="custom-control-label2" for="online">Online Payment</label>
+        <!-- <input id="online" name="paymentMethod" type="radio" value="GCash" class="custom-control-input2">
+        <label class="custom-control-label2" for="online">Online Payment</label> -->
         <div class="custom-control1 custom-radio">
         <input id="cashOnDelivery" name="paymentMethod" value="COD" type="radio" class="custom-control-input1">
         <label class="custom-control-label1" for="cashOnDelivery">Cash on Delivery</label>

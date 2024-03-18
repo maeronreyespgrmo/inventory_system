@@ -1,9 +1,6 @@
 <?php 
-
 include 'customer/config_info.php';
-
 session_start();
-
 error_reporting(0);
 
 if (isset($_SESSION['username'])) {
@@ -143,6 +140,7 @@ font-family: Arial, sans-serif;
 margin-top: 5%; /* Adjusted margin */
 text-align: center; 
 }
+
 .topnav {
 overflow: hidden;
 background-color: #333;
